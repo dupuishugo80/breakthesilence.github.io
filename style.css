@@ -1,0 +1,131 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  background-color: #f7f7f7;
+  font-family: Calibri;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 100%;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.category {
+  margin-bottom: 10px;
+}
+
+.category-button,
+.organizationalChart-button {
+  background-color: rgb(37, 56, 69);
+  color: #fff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  width: 100%;
+  text-align: center;
+  border-radius: 3px;
+  transition: background-color 0.3s ease;
+  font-weight: bold;
+  font-size: x-large;
+  transition: opacity 0.2s;
+}
+
+.subcategory-button {
+  margin-top: 5px;
+  background-color: rgb(57, 103, 118);
+  color: #fff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  width: 100%;
+  text-align: center;
+  border-radius: 3px;
+  transition: background-color 0.3s ease;
+  font-size: medium;
+  transition: opacity 0.2s;
+}
+
+.category-button:hover {
+  background-color: rgba(37, 74, 87, 0.945);
+}
+
+.subcategories {
+  display: none;
+}
+
+.subcategory-text {
+  display: block;
+  background-color: #c0d1d8cc;
+  padding: 10px;
+  border-radius: 3px;
+  margin-top: 5px;
+  transition: opacity 0.2s;
+}
+
+.organizationalChart-images {
+  display: block;
+  background-color: #c0d1d8cc;
+  padding: 10px;
+  border-radius: 3px;
+  margin-top: 5px;
+  transition: opacity 0.2s;
+  align-content: center;
+}
+
+.organizationalChart-text {
+  display: block;
+  background-color: #c0d1d8cc;
+  font-weight: bold;
+  text-align: center;
+  padding: 5px;
+  margin: 5px;
+}
+
+.subcategory {
+  display: block;
+  padding: 8px;
+  text-decoration: none;
+  color: #8b8b8b;
+  transition: background-color 0.3s ease;
+  transition: opacity 0.2s;
+}
+
+.subcategory-button:hover {
+  background-color: rgba(79, 119, 133, 0.849);
+}
+
+.title-subcategory {
+  display: block;
+  text-decoration: none;
+  color: rgb(36, 55, 70);
+  font-weight: bold;
+}
+
+.op {
+  opacity: 0;
+}
+
+.logo {
+  text-align: center;
+}
+
+footer {
+  background-color: #333; /* Couleur de fond du footer */
+  color: #fff; /* Couleur du texte */
+  text-align: center; /* Centrer le texte horizontalement */
+  padding: 10px 0; /* Espace autour du texte */
+}
+
+.footer-content {
+  max-width: 1200px; /* Largeur maximale du contenu du footer */
+  margin: 0 auto; /* Centrer le contenu horizontalement */
+}
